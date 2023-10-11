@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="theme-color" content="#111111">
+    <title>Dream house</title>
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/ui.min.css">
+    <link rel="stylesheet" href="css/utility.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="css/pagebuilder.min.css">
+</head>
+  
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+    <div class="header-top">
+        <div class="container header-top__container">
+            <a href="index.html" class="header-top__logo">
+                <img src="img/logo.svg" alt="" width="310" height="90">
+            </a>
+            <div class="header-top__btns">
+                <button class="btn btn-primary header-top__btn" title="">Построить дом</button>
+                <button class="btn btn-outline-secondary header-top__btn" title="">Партнёрская программа для
+                    мастеров</button>
+            </div>
+            <div class="header-top__right header-right">
+                <a href="#" class="header-right__link link-favorite">
+                    <svg class="icon header-right__svg" width="24" height="24">
+                        <use xlink:href="img/sprite.svg#star"></use>
+                    </svg>
+                    <span class="header-right__text">Избранное</span>
+                    <span class="header-right__counter js-favorite-count"></span>
+                </a>
+                <!--<div class="header-right__top">
+                    <svg class="header-right__svg">
+                        <use xlink:href="img/sprite.svg#header-icon"></use>
+                    </svg>
+                    <ul class="list-reset breadcrumbs header-right__breadcrumbs">
+                        <li class="breadcrumbs__item">
+                            <a href="#" class="breadcrumbs__link" title="">Вход</a>
+                        </li>
+                        <li class="breadcrumbs__item">
+                            <a href="#" class="breadcrumbs__link" title="">Регистрация</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="header-right__bottom">
+                    <div class="header-right__select">
+                        <div class="custom-select header-right__custom-select" tabindex="0">
+                            <div class="custom-select__top">
+                                <a href="#" class="custom-select__link" title="">
+                                    <div class="custom-select__lang-img">
+                                        <img src="img/rus_flag.png" alt="" title="">
+                                    </div>
+                                    <div class="custom-select__lang">Ru</div>
+                                </a>
+                            </div>
+                            <div class="custom-select__dropdown">
+                                <ul class="custom-select__list list-reset">
+                                    <li class="custom-select__item">
+                                        <a href="#" class="custom-select__link" title="">
+                                            <div class="custom-select__lang-img">
+                                                <img src="img/rus_flag.png" alt="" title="">
+                                            </div>
+                                            <div class="custom-select__lang">Ru</div>
+                                        </a>
+                                    </li>
+                                    <li class="custom-select__item">
+                                        <a href="#" class="custom-select__link" title="">
+                                            <div class="custom-select__lang-img custom-select__lang-img--en">
+                                                <img src="img/en_flag.png" alt="" title="">
+                                            </div>
+                                            <div class="custom-select__lang">En</div>
+                                        </a>
+                                    </li>
+                                    <li class="custom-select__item">
+                                        <a href="#" class="custom-select__link" title="">
+                                            <div class="custom-select__lang-img custom-select__lang-img--ge">
+                                                <img src="img/ge_flag.png" alt="" title="">
+                                            </div>
+                                            <div class="custom-select__lang">Ge</div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+            <button class="burger btn-reset" title="">
+                <span class="burger__line"></span>
+            </button>
+        </div>
+    </div>
+    <div class="header-bottom bg-darkblue">
+        <div class="container header-bottom__container">
+            <a href="#" class="header-bottom__link link-favorite">
+                <svg class="icon header-bottom__svg" width="24" height="24">
+                    <use xlink:href="img/sprite.svg#star"></use>
+                </svg>
+                <span class="header-bottom__counter js-favorite-count"></span>
+            </a>
+            <nav class="header-bottom__nav nav">
+                <ul class="nav__list list-reset">
+                    <li class="nav__item">
+                        <a class="btn nav__link" title="">Главная</a>
+                        <div class="nav__dropdown dropdown bg-darkblue">
+                            <ul class="dropdown__list list-reset">
+                                <li class="dropdown__item">
+                                    <a href="repair.html" class="dropdown__link">Ремонт</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Строительство</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="article.html" class="dropdown__link">Статьи о ремонте</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Идеи для дизайна</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="btn nav__link" title="">Ремонт</a>
+                        <div class="nav__dropdown dropdown bg-darkblue">
+                            <ul class="dropdown__list list-reset">
+                                <li class="dropdown__item">
+                                    <a href="repair.html" class="dropdown__link">Ремонт</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Строительство</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="article.html" class="dropdown__link">Статьи о ремонте</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Идеи для дизайна</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="btn nav__link" title="">Строительство</a>
+                        <div class="nav__dropdown dropdown bg-darkblue">
+                            <ul class="dropdown__list list-reset">
+                                <li class="dropdown__item">
+                                    <a href="repair.html" class="dropdown__link">Ремонт</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Строительство</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="article.html" class="dropdown__link">Статьи о ремонте</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Идеи для дизайна</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="btn nav__link" title="">Статьи о&nbsp;ремонте</a>
+                        <div class="nav__dropdown dropdown bg-darkblue">
+                            <ul class="dropdown__list list-reset">
+                                <li class="dropdown__item">
+                                    <a href="repair.html" class="dropdown__link">Ремонт</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Строительство</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="article.html" class="dropdown__link">Статьи о ремонте</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Идеи для дизайна</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav__item">
+                        <a class="btn nav__link" title="">Идеи для дизайна</a>
+                        <div class="nav__dropdown dropdown bg-darkblue">
+                            <ul class="dropdown__list list-reset">
+                                <li class="dropdown__item">
+                                    <a href="repair.html" class="dropdown__link">Ремонт</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Строительство</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="article.html" class="dropdown__link">Статьи о ремонте</a>
+                                </li>
+                                <li class="dropdown__item">
+                                    <a href="#" class="dropdown__link">Идеи для дизайна</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="nav__btns">
+                    <button class="btn btn-primary nav__btn" title="">Построить дом</button>
+                    <button class="btn btn-outline-secondary nav__btn" title="">Партнёрская программа для
+                        мастеров</button>
+                </div>
+            </nav>
+            <form action="" class="header-bottom__form">
+                <input placeholder="Поиск по&nbsp;сайту" type="text" class="header-bottom__input bg-white">
+                <button type="submit" class="btn btn-secondary header-bottom__btn" title="">Найти</button>
+            </form>
+        </div>
+    </div>
+</header>
+    <main class="main">
+      <section class="renovation">
+    <picture>
+        <source media="(max-width: 576px)" srcset="img/renovation-bg.png" width="576" height="262">
+        <img src="img/renovation-bg.png" class="renovation__bg" alt="" title="" width="1920" height="600">
+      </picture>
+    <div class="container renovation__container">
+        <h1 class="title renovation__title text-left color-darkblue">Ремонт квартир под ключ</h1>
+        <p class="renovation__descr">
+            Ремонт квартир под ключ обязательно сопровождается подписанием договора и&nbsp;составлением сметы. Закупка
+            материалов для ремонта квартиры позволяет сэкономить, если её&nbsp;доверить подрядчику, что снижает общую
+            стоимость мероприятия.
+        </p>
+        <a href="#" class="btn btn-secondary renovation__btn" title="">Ещё статьи о&nbsp;ремонте</a>
+    </div>
+</section>
+      <section class="articles-works">
+        <div class="container articles-works__container">
+          <ul class="list-reset breadcrumbs articles-works__breadcrumbs">
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link">
+                <svg class="icon breadcrumbs__svg" width="24" height="24">
+                  <use xlink:href="img/sprite.svg#breadcrumbs-icon"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a class="breadcrumbs__link">Ремонт</a>
+            </li>
+          </ul>
+          <h2 class="title articles-works__title text-center">Статьи по&nbsp;ремонту и&nbsp;отделочным работам</h2>
+          <div class="articles-works__wrap">
+            <div class="menu bg-lightblue">
+    <h3 class="title menu__title text-left color-black">Статьи по&nbsp;темам</h3>
+    <ul class="menu__list list-reset bg-lightblue">
+        <li class="menu__item">
+            <a href="#" class="menu__btn menu__btn--active" title="">Новые статьи</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn menu__btn--active" title="">Самое популярное</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Статьи о&nbsp;кухнях</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Статьи о&nbsp;ванных комнатах</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Советы про сад и&nbsp;растения</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Советы о&nbsp;планировках и&nbsp;перепланировках</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Статьи об&nbsp;обоях</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Статьи о&nbsp;красках и&nbsp;штукатурке</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Статьи о напольных покрытиях</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Статьи о&nbsp;плитке и&nbsp;мозаике</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Статьи об&nbsp;окнах и&nbsp;дверях</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Статьи о&nbsp;лестницах</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Статьи о&nbsp;каминах</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Пол, стены потолок&nbsp;&mdash; по&nbsp;поверхностям</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Практикум ремонта</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Советы по&nbsp;декору</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__btn" title="">Архитектура, советы по&nbsp;строительству</a>
+        </li>
+        <li class="menu__item">
+            <a href="#" class="menu__link" title="">Ещё категории</a>
+        </li>
+    </ul>
+</div>
+            <ul class="advice__list list-reset">
+    <li class="advice__item" data-id="60">
+        <div class="advice__img">
+            <img class="lazy" data-src="img/advice-1.png" alt="" title="" loading="lazy" width="310"
+            height="250">
+        </div>
+        <div class="advice__right">
+            <button class="advice__star btn-reset js-to-favorite" data-id="60" title="">
+                <svg class="icon" width="24" height="24">
+                  <use xlink:href="img/sprite.svg#star"></use>
+                </svg>                                      
+            </button>
+            <h3 class="title advice__subtitle text-left color-darkblue">
+                Хотите узнать больше о&nbsp;кровельных работах?
+            </h3>
+            <p class="advice__descr advice__descr--open">
+                Когда дело касается крыши вашего дома, важно обратить внимание на&nbsp;ее&nbsp;состояние
+                и&nbsp;своевременно проводить профессиональные работы для обеспечения надежной защиты вашего жилья
+                от&nbsp;непогоды и&nbsp;других внешних воздействий. Наши опытные специалисты предлагают полный спектр
+                услуг: замена поврежденных кровельных материалов, ремонт тече...
+            </p>
+            <p class="advice__descr advice__descr--hidden">
+                Когда дело касается крыши вашего дома, важно обратить внимание на&nbsp;ее&nbsp;состояние
+                и&nbsp;своевременно проводить профессиональные работы для обеспечения надежной защиты вашего
+                жилья от&nbsp;непогоды и&nbsp;других внешних воздействий...
+            </p>
+            <div class="advice__bottom">
+                <time datetime="25.02.2023" class="advice__time">25.02.2023</time>
+                <a href="#" class="btn btn-secondary advice__btn" title="">Читать подробнее</a>
+            </div>
+        </div>
+    </li>
+    <li class="advice__item" data-id="70">
+        <div class="advice__img">
+            <img class="lazy" data-src="img/advice-2.png" alt="" title="" loading="lazy" width="310"
+            height="250">
+        </div>
+        <div class="advice__right">
+            <button class="advice__star btn-reset js-to-favorite" data-id="70" title="">
+                <svg class="icon" width="24" height="24">
+                    <use xlink:href="img/sprite.svg#star"></use>
+                </svg>                                    
+            </button>
+            <h3 class="title advice__subtitle text-left color-darkblue">
+                Хотите узнать больше о&nbsp;сантехнических работах?
+            </h3>
+            <p class="advice__descr advice__descr--open">
+                Когда речь идет о&nbsp;важности комфортной и&nbsp;безопасной жизни в&nbsp;вашем доме, сантехника играет
+                ключевую роль. Наша компания специализируется на&nbsp;предоставлении широкого спектра услуг, связанных
+                со&nbsp;сантехникой, чтобы обеспечить вашему дому эффективное водоснабжение и&nbsp;канализацию...
+            </p>
+            <p class="advice__descr advice__descr--hidden">
+                Когда речь идет о&nbsp;важности комфортной и&nbsp;безопасной жизни в&nbsp;вашем доме, сантехника
+                играет ключевую роль. Наша компания специализируется на&nbsp;предоставлении широкого спектра
+                услуг, связанных со&nbsp;сантехникой...
+            </p>
+            <div class="advice__bottom">
+                <time datetime="25.02.2023" class="advice__time">25.02.2023</time>
+                <a href="#" class="btn btn-secondary advice__btn" title="">Читать подробнее</a>
+            </div>
+        </div>
+    </li>
+    <li class="advice__item" data-id="80">
+        <div class="advice__img">
+            <img class="lazy" data-src="img/advice-3.png" alt="" title="" loading="lazy" width="310"
+            height="250">
+        </div>
+        <div class="advice__right">
+            <button class="advice__star btn-reset js-to-favorite" data-id="80" title="">
+                <svg class="icon" width="24" height="24">
+                    <use xlink:href="img/sprite.svg#star"></use>
+                </svg> 
+            </button>
+            <h3 class="title advice__subtitle text-left color-darkblue">
+                Хотите узнать больше о&nbsp;ремонте?
+            </h3>
+            <p class="advice__descr">
+                Процесс восстановления, исправления или обновления чего‑либо, включая здания, помещения, оборудование
+                или предметы бытового использования. Ремонт может включать в&nbsp;себя различные виды действий
+            </p>
+            <div class="advice__bottom">
+                <time datetime="25.02.2023" class="advice__time">25.02.2023</time>
+                <a href="#" class="btn btn-secondary advice__btn" title="">Читать подробнее</a>
+            </div>
+        </div>
+    </li>
+    <li class="advice__item" data-id="90">
+        <div class="advice__img">
+            <img class="lazy" data-src="img/advice-4.png" alt="" title="" loading="lazy" width="310"
+            height="250">
+        </div>
+        <div class="advice__right">
+            <button class="advice__star btn-reset js-to-favorite" data-id="90" title="">
+                <svg class="icon" width="24" height="24">
+                    <use xlink:href="img/sprite.svg#star"></use>
+                </svg>
+            </button>
+            <h3 class="title advice__subtitle text-left color-darkblue">
+                Ремонт столешниц из&nbsp;искусственного камня
+            </h3>
+            <p class="advice__descr">
+                Процесс восстановления, исправления или обновления чего‑либо, включая здания, помещения, оборудование
+                или предметы бытового использования. Ремонт может включать в&nbsp;себя различные виды действий
+            </p>
+            <div class="advice__bottom">
+                <time datetime="25.02.2023" class="advice__time">25.02.2023</time>
+                <a href="#" class="btn btn-secondary advice__btn" title="">Читать подробнее</a>
+            </div>
+        </div>
+    </li>
+</ul>
+          </div>
+        </div>
+      </section>
+      <section class="articles articles--repair">
+    <div class="container articles__container">
+        <h2 class="title articles__title text-center color-darkblue">Вам также могут быть интересны:</h2>
+        <ul class="articles__list list-reset">
+            <li class="articles__item">
+                <div class="articles__img">
+                    <img data-src="img/articles-1.png" class="lazy" alt="" title="" loading="lazy" width="420"
+                    height="250">
+                </div>
+                <div class="articles__wrap">
+                    <h3 class="title articles__subtitle text-left color-darkblue">Хотите узнать больше о&nbsp;кровельных
+                        работах?</h3>
+                    <p class="articles__descr">
+                        Кровельные работы выполняются с&nbsp;целью обеспечения защиты здания от&nbsp;атмосферных
+                        осадков,
+                        предотвращения проникновения влаги и&nbsp;утечек, а&nbsp;также для поддержания прочности
+                        и&nbsp;долговечности кровли.
+                    </p>
+                    <!--<a href="#" class="articles__link" title="">Статьи о&nbsp;кровельных работах</a>-->
+                </div>
+                <!--<div class="articles__bottom">
+                    <a href="#" class="articles__bottom-link" title="">Найдите мастера по&nbsp;кровельным работам:</a>
+                    <a href="#" class="articles__bottom-link" title="">403 мастера в&nbsp;Берлине</a>
+                </div>-->
+            </li>
+            <li class="articles__item">
+                <div class="articles__img">
+                    <img data-src="img/articles-2.png" class="lazy" alt="" title="" loading="lazy" width="420"
+                    height="250">
+                </div>
+                <div class="articles__wrap">
+                    <h3 class="title articles__subtitle text-left color-darkblue">Хотите узнать больше о&nbsp;сантехнических
+                        работах?
+                    </h3>
+                    <p class="articles__descr">
+                        Целью сантехнических работ является обеспечение надёжной и&nbsp;безопасной работы систем
+                        водоснабжения и&nbsp;отопления, а&nbsp;также эффективного удаления сточных вод
+                        и&nbsp;отходов.
+                    </p>
+                    <!--<a href="#" class="articles__link" title="">Статьи о&nbsp;сантехнических работах</a>-->
+                </div>
+                <!--<div class="articles__bottom">
+                    <a href="#" class="articles__bottom-link" title="">Найдите мастера по&nbsp;ремонту сантехники:</a>
+                    <a href="#" class="articles__bottom-link" title="">15236 мастера в&nbsp;Берлине</a>
+                </div>-->
+            </li>
+            <li class="articles__item">
+                <div class="articles__img">
+                    <img data-src="img/articles-3.png" class="lazy" alt="" title="" loading="lazy" width="420"
+                    height="250">
+                </div>
+                <div class="articles__wrap">
+                    <h3 class="title articles__subtitle text-left color-darkblue">Хотите узнать больше о&nbsp;ремонте?</h3>
+                    <p class="articles__descr">
+                        Процесс восстановления, исправления или обновления чего‑либо, включая здания, помещения,
+                        оборудование или предметы бытового использования. Ремонт может включать в&nbsp;себя
+                        различные
+                        виды действий
+                    </p>
+                    <!--<a href="#" class="articles__link" title="">Статьи о&nbsp;ремонте</a>-->
+                </div>
+                <!--<div class="articles__bottom">
+                    <a href="#" class="articles__bottom-link" title="">Найдите мастера по&nbsp;ремонту:</a>
+                    <a href="#" class="articles__bottom-link" title="">26658 мастеров в&nbsp;Берлине</a>
+                </div>-->
+            </li>
+        </ul>
+        <button class="btn btn-outline-secondary articles__btn" title="">Подробнее о&nbsp;других видах работ...</button>
+    </div>
+</section>
+      <section class="helper">
+    <div class="container helper__container">
+        <div class="helper__content">
+            <div class="helper__img">
+                <img class="lazy" data-src="img/helper.png" alt="" title="" loading="lazy" width="350" height="350">
+            </div>
+            <div class="helper__right">
+                <h3 class="title helper__title text-center color-white">
+                    Если вам нужна помощь в&nbsp;ремонте, создайте себе онлайн-помощника
+                </h3>
+                <p class="helper__descr">
+                    Наш онлайн-помощник будет хранить всё, что касается вашего ремонта, а&nbsp;также будет подбирать всю
+                    полезную информацию по&nbsp;интересующей вас теме
+                </p>
+                <button class="btn btn-lg btn-primary helper__btn" title="">СОЗДАТЬ ПОМОЩНИКА</button>
+            </div>
+        </div>
+</section>
+    </main>
+    <footer class="footer">
+    <div class="footer__top bg-darkblue">
+        <div class="container footer__top-container">
+            <div class="footer__left">
+                <a href="index.html" class="footer__logo">
+                    <img src="img/footer-logo.svg" alt="" width="310" height="90">
+                </a>
+                <ul class="footer__left-list list-reset">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link" title="">
+                            <svg class="icon" width="30" height="30">
+                              <use xlink:href="img/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link" title="">
+                            <svg class="icon" width="30" height="30">
+                                <use xlink:href="img/sprite.svg#telegram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link" title="">
+                            <svg class="icon" width="30" height="30">
+                                <use xlink:href="img/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link" title="">
+                            <svg class="icon" width="30" height="30">
+                                <use xlink:href="img/sprite.svg#youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__right">
+                <div class="footer__block">
+                    <h3 class="title footer__subtitle text-left color-white">О&nbsp;проекте</h3>
+                    <ul class="footer__right-list list-reset">
+                        <li class="footer__right-item">
+                            <a class="footer__right-link" href="#">Подпункт 1</a>
+                        </li>
+                        <li class="footer__right-item">
+                            <a class="footer__right-link" href="#">Подпункт 2</a>
+                        </li>
+                        <li class="footer__right-item">
+                            <a class="footer__right-link" href="#">Подпункт 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__block">
+                    <h3 class="title footer__subtitle text-left color-white">Тех поддержка</h3>
+                    <ul class="footer__right-list list-reset">
+                        <li class="footer__right-item">
+                            <a class="footer__right-link" href="#">Подпункт 1</a>
+                        </li>
+                        <li class="footer__right-item">
+                            <a class="footer__right-link" href="#">Подпункт 2</a>
+                        </li>
+                        <li class="footer__right-item">
+                            <a class="footer__right-link" href="#">Подпункт 3</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__block">
+                    <h3 class="title footer__subtitle footer__contacts-subtitle text-left color-white">Контакты</h3>
+                    <ul class="footer__contacts-list list-reset">
+                        <li class="footer__contacts-item">
+                            <a href="#" class="footer__contacts-link" title="">
+                                <svg class="icon" width="30" height="30">
+                                  <use xlink:href="img/sprite.svg#viber"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a href="#" class="footer__contacts-link" title="">
+                                <svg class="icon" width="30" height="30">
+                                    <use xlink:href="img/sprite.svg#tg-contact"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer__contacts-item">
+                            <a href="#" class="footer__contacts-link" title="">
+                                <svg class="icon" width="30" height="30">
+                                    <use xlink:href="img/sprite.svg#whatsapp"></use>
+                                  </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="#" class="footer__mail-link" title="">bau-dein-haus@bdh.de</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bottom bg-black">
+        <div class="container footer__bottom-container">
+            <div class="footer__bottom-text">Copyright &copy;&nbsp;bau-dein-haus.de&nbsp;&mdash; 2023</div>
+        </div>
+    </div>
+</footer>
+    <!--Cookie-->
+<div class="cookie-agreement animate__animated animate__fadeInUp" style="display: none">
+    <div class="cookie-agreement__wr">
+        <div class="cookie-agreement__content">
+            <div class="cookie-agreement__text">
+                Используя наш веб-сайт, вы соглашаетесь с использованием файлов cookie и <a href="/policy">Политикой
+                    конфиденциальности</a>
+            </div>
+        </div>
+        <div class="cookie-agreement__buttons">
+            <div class="btn btn-primary cookie-agreement__btn-ok">Принимаю</div>
+        </div>
+    </div>
+</div>
+  </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
