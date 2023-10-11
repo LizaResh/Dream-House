@@ -1,0 +1,135 @@
+:root {
+  --font-family: "OpenSans", sans-serif;
+  --content-width: 1170px;
+  --container-offset: 15px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --black-color: #333;
+  --gray-color: #666;
+  --darkblue-color: #095682;
+  --blue-color: #9DCCE4;
+  --lightblue-color: #EBF5FA;
+  --orange-color: #F89062;
+  --red-color: #EB5757;
+  --beige-color: #FEF4EF;
+  --white-color: #fff;
+}
+
+/* stylelint-disable */
+/* stylelint-disable */
+/* stylelint-disable */
+.custom-checkbox__field:checked + .custom-checkbox__content::after {
+  opacity: 1;
+}
+
+.custom-checkbox__field:focus + .custom-checkbox__content::before {
+  outline: 2px solid #f00;
+  outline-offset: 2px;
+}
+
+.custom-checkbox__field:disabled + .custom-checkbox__content {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+/* stylelint-disable */
+.title {
+  margin: 0;
+  margin-bottom: 40px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #095682;
+  align-self: stretch;
+}
+@media (max-width: 1024px) {
+  .title {
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+@media (max-width: 768px) {
+  .title {
+    margin-bottom: 25px;
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media (max-width: 576px) {
+  .title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+/*bg*/
+.bg-primary {
+  background-color: var(--orange-color) !important;
+}
+
+.bg-black {
+  background-color: var(--black-color) !important;
+}
+
+.bg-white {
+  background-color: var(--white-color) !important;
+}
+
+.bg-blue {
+  background-color: var(--blue-color) !important;
+}
+
+.bg-darkblue {
+  background-color: var(--darkblue-color) !important;
+}
+
+.bg-lightblue {
+  background-color: var(--lightblue-color) !important;
+}
+
+.bg-beige {
+  background-color: var(--beige-color) !important;
+}
+
+/*colors*/
+.color-primary {
+  color: var(--orange-color) !important;
+}
+
+.color-darkblue {
+  color: var(--darkblue-color) !important;
+}
+
+.color-blue {
+  color: var(--blue-color) !important;
+}
+
+.color-lightblue {
+  color: var(--lightblue-color) !important;
+}
+
+.color-beige {
+  color: var(--beige-color) !important;
+}
+
+.color-black {
+  color: var(--black-color) !important;
+}
+
+.color-white {
+  color: var(--white-color) !important;
+}
+
+/*align*/
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
